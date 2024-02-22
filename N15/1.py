@@ -6,7 +6,7 @@ def f(x):
     C = x in range(29, 81)
     return (D) <= (((not(C)) and (not(A))) <= (not(D)))
 
-for x in range(1, 222):
+for x in range(1, 300): # any value possibly higher than limit
     if f(x) == 0:
         print(x)
         a.add(x)
