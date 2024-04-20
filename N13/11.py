@@ -8,7 +8,7 @@ for a in range(256):
     for adr in net:
         cnt += 1
         new = bin(int(adr))[2:].zfill(32)
-        if new[15:].count('1') > 3:
+        if new[16:].count('1') > 3:
             cnt_lay += 1
 
     if cnt == cnt_lay:
