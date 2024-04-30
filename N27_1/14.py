@@ -22,5 +22,5 @@ for i in range(len(final)):
             for x in range(k + 1, len(final)):
                 if (final[i] * final[j] * final[k] * final[x]) % 12 == 0:
                     ans.append(final[i] + final[j] + final[k] + final[x])
-                
+                    
 print(max(ans))
