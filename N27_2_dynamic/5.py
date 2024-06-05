@@ -19,7 +19,7 @@ for i in range(len(text)):
         
     #print(text[i], a, b)
         
-    a[text[i] % 80] += 12
+    a[text[i] % 80] += 1
     if text[i] > 50000:
         b[text[i] % 80] += 1
         
